@@ -1,29 +1,457 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/portfolio.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/portfolio.css">
 
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <!-- fontawesome-->
+  <link href="/portfolio/assets/all.css" rel="stylesheet">
+  <script defer src="/portfolio/assets/all.css"></script>
+  <script src="https://kit.fontawesome.com/e98b4f20cf.js" crossorigin="anonymous"></script>
 
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
-    <title>Jenny Yang's Portfolio</title>
+  <title>Jenny Yang's Portfolio</title>
 
 </head>
-  <h1>Hi! I'm Jenny Yang 楊佳臻</h1>
-  
+
 <body>
-  
+
+  <!-- Start Nav Section -->
+  <nav id="navbar" class="navbar">
+    <ul class="nav-menu">
+      <li>
+        <a data-scroll="home" href="#home" class="dot active">
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="about" href="#about" class="dot">
+          <span>About me</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="exp" href="#exp" class="dot">
+          <span>Experience</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="social" href="#social" class="dot">
+          <span>Social Media Design</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="event" href="#event" class="dot">
+          <span>Event Design</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="layout" href="#layout" class="dot">
+          <span>Layout Design</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="uiux" href="#uiux" class="dot">
+          <span>UI/UX Design</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- End Nav Section -->
+
+  <!-- Start Home Section -->
+  <section id="home" class="section">
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="content">
+          <div class="text-center" style="margin-top: 50px; margin-bottom: 50px;">
+            <h1>Hello, I'm Jenny Yang</h1>
+            <p>喜愛探索新事物和分享故事，興趣橫跨文化、設計和行銷領域。</p>
+          </div>
+
+          <h2 class=" text-center">關於我</h2>
+          <div class="row">
+            <div class="col-6 p-5 mx-auto">
+              <h3>楊佳臻 Jenny Yang</h3>
+              <p>
+                <ul style="list-style-type: none; margin-left: -20px;">
+                  <li><i class="fa-solid fa-cake-candles" style="color: #000000;"></i>&nbsp&nbsp 25 Jan, 2000</li>
+                  <li><i class="fa-solid fa-location-dot" style="color: #000000;"></i>&nbsp&nbsp Taipei, Taiwan</li>
+                  <li><i class="fa-solid fa-envelope" style="color: #000000;"></i>&nbsp&nbsp jycc.work@gmail.com</li>
+                </ul>
+              </p>
+
+              <h4 style="padding-top: 5%;">學歷</h4>
+              <h5>國立臺灣大學 文學士</h5>
+              <h6>2018-2023</h6>
+              <p>
+                <ul>
+                  <li>主修圖書資訊學系</li>
+                  <li>輔修外國語文學系</li>
+                  <li>創意創業學程學生</li>
+                  <li>臺灣研究學程學生</li>
+                </ul>
+              </p>
+              <h5 style="padding-top: 2%;">倫敦大學瑪麗王后學院 交換學生</h5>
+              <h6>2022-23 Semester 1</h6>
+              <p>
+                <ul>
+                  <li>主修英文與戲劇</li>
+                </ul>
+              </p>
+            </div>
+
+            <div class="col-4 p-5 mx-auto">
+              <img src="/portfolio/images/jenny.jpg" alt="楊佳臻的照片" style="vertical-align:middle;" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Home Section -->
+
+
+
+  <!-- Start Expericence Section -->
+  <section id="exp" class="section">
+    <div class="container">
+      <div class="content-wrapper text-center">
+        <div class="content">
+          <h2 class=" text-center">經歷</h2>
+          <p>探索多元可能</p>
+          <div class="exp">
+            <div class="container">
+              <div class="timeline" id="timeline">
+                <div class="container left">
+                  <div class="date">15 Dec</div>
+                  <i class="icon fa fa-home"></i>
+                  <div class="content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                    </p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="date">22 Oct</div>
+                  <i class="icon fa fa-gift"></i>
+                  <div class="content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                    </p>
+                  </div>
+                </div>
+                <div class="container left">
+                  <div class="date">10 Jul</div>
+                  <i class="icon fa fa-user"></i>
+                  <div class="content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                    </p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="date">18 May</div>
+                  <i class="icon fa fa-running"></i>
+                  <div class="content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                    </p>
+                  </div>
+                </div>
+                <div class="container left">
+                  <div class="date">10 Feb</div>
+                  <i class="icon fa fa-cog"></i>
+                  <div class="content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                    </p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="date">01 Jan</div>
+                  <i class="icon fa fa-certificate"></i>
+                  <div class="content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Experience Section -->
+
+  <!-- Start Social Media Section -->
+  <section id="social" class="section">
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="content">
+          <h2 class=" text-center" style="color: white;">Social Media Design</h2>
+
+          <!-- start 台灣話 project section-->
+          <div class="project">
+            <div class="row" style="padding-bottom: 50px;">
+              <h3 style="padding-top: 30px;">台灣話 tâi-uân-uē </h3>
+              <h5>營運長 & 行銷</h5>
+              <div class="col-lg-6 col-sm-12 left">
+                <p style="margin-top: 50px ;margin-bottom: 50px;">用梗圖、迷因或輕鬆有趣的方式，介紹臺語詞彙和臺語時事，致力於傳達臺語活潑有趣的面向。</p>
+                <div class="vstack gap-2 mx-auto">
+                  <button type="button" class="btn" href="https://www.facebook.com/TAIUANUE" target="_blank"><i
+                      class="fab fa-facebook me-2"></i>台灣話 Facebook</button>
+                  <button type="button" class="btn" href="https://www.instagram.com/tai.uan.ue/" target="_blank"><i
+                      class="fab fa-instagram me-2"></i>台灣話 Instagram</button>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-sm-12 right">
+                <div class="row row-cols-4 justify-content-md-center" style="margin-top: 50px ;padding-bottom: 20px;">
+                  <div class="col">
+                    <p class="svgcircletext text-center" style="padding-bottom: 10px;">集資金額</p>
+                    <svg class="svgcircle" height="80" width=80>
+                      <circle cx="40" cy="40" r="40" fill="#FDE7CD" />
+                      <text x="50%" y="50%" text-anchor="middle" fill="#008192" dy=".3em">26 萬</text>
+                    </svg>
+                  </div>
+                  <div class="col">
+                    <p class="svgcircletext text-center" style="padding-bottom: 10px;">贊助人數</p>
+                    <svg class="svgcircle" height="80" width="80">
+                      <circle cx="40" cy="40" r="40" fill="#FDE7CD" />
+                      <text x="50%" y="50%" text-anchor="middle" fill="#008192" dy=".3em">163</text>
+                    </svg>
+                  </div>
+                  <div class="col">
+                    <p class="svgcircletext text-center" style="padding-bottom: 10px;">實體活動</p>
+                    <svg class="svgcircle" height="80" width="80">
+                      <circle cx="40" cy="40" r="40" fill="#FDE7CD" />
+                      <text x="50%" y="50%" text-anchor="middle" fill="#008192" dy=".3em">10+</text>
+                    </svg>
+                  </div>
+                  <div class="col">
+                    <p class="svgcircletext text-center" style="padding-bottom: 10px;">KOL 支持</p>
+                    <svg class="svgcircle" height="80" width="80">
+                      <circle cx="40" cy="40" r="40" fill="#FDE7CD" />
+                      <text x="50%" y="50%" text-anchor="middle" fill="#008192" dy=".3em">10+</text>
+                    </svg>
+                  </div>
+                </div>
+                <div class="row">
+                  <img src="/portfolio/images/twu-crowd.png" alt="台灣話集資成果" class="img-fluid">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-sm">
+                <figure>
+                  <img src="/portfolio/images/twu-fb1.png" alt="台灣話FB1" class="img-fluid" style="height: 100%;">
+                  <figcaption>2021.04.01</figcaption>
+                </figure>
+              </div>
+              <div class="col-sm">
+                <figure>
+                  <img src="/portfolio/images/twu-fb2.png" alt="台灣話FB2" class="img-fluid" style="height: 100%;">
+                  <figcaption>2021.04.01</figcaption>
+                </figure>
+              </div>
+              <div class="col-sm">
+                <img src="/portfolio/images/twu-ig.png" alt="台灣話IG九宮格" class="img-fluid" style="height: 100%;">
+              </div>
+            </div>
+          </div>
+          <!-- end 台灣話 project section-->
+
+          <!-- start 科技職涯 project section-->
+          <div class="project">
+            <div class="row">
+              <h3 style="padding-top: 30px;">CakeResume Podcast｜科技職涯 Talent Connect </h3>
+              <h5>Podcast 行銷實習生</h5>
+
+              <div class="row" style="padding-top: 50px;">
+                <div class="col-lg-6 col-sm-12">
+                  <h6 style="font-family: 'Noto Sans TC', sans-serif; color: #3C3F5A;">1. Meta 廣告投放</h6>
+                  <p>實際嘗試 Meta 的廣告投放，包含廣告素材製作、廣告方案組合、受眾設定等。</p>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                  <h6 style="font-family: 'Noto Sans TC', sans-serif; color: #3C3F5A;">2. 文章撰寫及上稿</h6>
+                  <p>使用 Google 關鍵字規劃工具，挑出熱門關鍵字以及常委關鍵字，撰寫 SEO 文章。</p>
+                </div>
+              </div>
+
+              <div class="row" style="padding-top: 20px;">
+                <div class="col-lg-6 col-sm-12">
+                  <h6 style="font-family: 'Noto Sans TC', sans-serif; color: #3C3F5A;">3. IG、FB 社群經營</h6>
+                  <p>經營科技職涯 IG、FB 社群，並發起特別企劃。彙整過往來賓推薦書單製作「職涯成長書單」，最終有近 200 名粉絲領取。</p>
+                  <div class="col-sm">
+                    <figure>
+                      <img src="/portfolio/images/talent-book.png" alt="科技職涯書單" class="img-fluid" style="height: 100%;">
+                    </figure>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                  <h6 style="font-family: 'Noto Sans TC', sans-serif; color: #3C3F5A;">4. 節目企劃及主持</h6>
+                  <p>撰寫 Podcast 支線「中午吃什麼」的訪綱，後來並實際主持。企劃並主持的【中午吃什麼 #22】在上架後衝到了 Apple Podcasts 科技類的單集第二名。</p>
+                  <iframe style="border-radius:0px"
+                    src="https://open.spotify.com/embed/episode/0usDzkqN4NU9zv0R8x3fLJ?utm_source=generator"
+                    width="100%" height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                  </iframe>
+                  <div class="col-sm podcastarticle" style="padding-top: 10px;">
+                    <figure>
+                      <a href="https://www.cakeresume.com/resources/podcaster-guide-6-podcast-recording-making-money-tips?locale=zh-TW"
+                        target="_blank">
+                        <img src="/portfolio/images/talent-podcast.png" alt="SEO 文章：Podcast 製作教學" class="img-fluid"
+                          style="height: 100%; border-radius:12px"></a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <!-- end 科技職涯 project section-->
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Social Media Section -->
+
+  <!-- Start Event Section -->
+  <section id="event" class="section">
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="content">
+          <h2 class=" text-center" style="color: black;">Event Design</h2>
+
+          <!-- start 性暴力沙龍海報 project section-->
+          <div class="project">
+            <div class="row" style="padding-bottom: 50px;">
+              <h3 style="padding-top: 30px;">性暴力沙龍海報 </h3>
+              <h6 style="font-family: 'Noto Sans TC', sans-serif; color: #3C3F5A;">2019.11.10</h6>
+              <div class="col-lg-6 col-sm-12">
+                <p style="padding-right: 20px; padding-bottom: 20px;">
+                  紅色令人聯想到血腥、暴力，因此以紅色為主色調；覆蓋於文字之上的長方體，則象徵所有被加諸於受害者身上的傷痕。於女研社期間，透過舉辦性暴力沙龍，期待得以逐漸拆除社會中的性暴力與厭女情結。</p>
+                <div>
+                  <figure style="vertical-align: bottom;">
+                    <img src="/portfolio/images/gender2.png" alt="性別社團海報2：性暴力沙龍2" class="img-fluid"
+                      style="height: 100%; align-self: end;">
+                  </figure>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12">
+                <figure>
+                  <img src="/portfolio/images/gender1.png" alt="性別社團海報1：性暴力沙龍1" class="img-fluid" style="height: 100%;">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <!-- end 性暴力沙龍海報 project section-->
+
+          <!-- start 性別社團聯合提問 project section-->
+          <div class="project">
+            <div class="row">
+              <h3 style="padding-top: 30px;">性別社團聯合提問貼文海報 </h3>
+              <h6 style="font-family: 'Noto Sans TC', sans-serif; color: #3C3F5A;">2022.04.29</h6>
+              <p style="padding-right: 20px; padding-bottom: 20px;">
+                紅色令人聯想到血腥、暴力，因此以紅色為主色調；覆蓋於文字之上的長方體，則象徵所有被加諸於受害者身上的傷痕。於女研社期間，透過舉辦性暴力沙龍，期待得以逐漸拆除社會中的性暴力與厭女情結。</p>
+            </div>
+            <div class="row">
+              <div class="col-sm">
+                <figure>
+                  <img src="/portfolio/images/gender3.png" alt="性別社團海報3" class="img-fluid" style="height: 100%;">
+                </figure>
+              </div>
+              <div class="col-sm">
+                <figure>
+                  <img src="/portfolio/images/gender4.png" alt="性別社團海報4" class="img-fluid" style="height: 100%;">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <!-- end 性別社團聯合提問 project section-->
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Event Section -->
+
+
+
+  <!-- Start Layout Section -->
+  <section id="layout">
+    <div class="container">
+      <div class="content-wrapper text-center">
+        <div class="content">
+          <h2 class=" text-center" style="color: black;">Layout Design</h2>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Layout Section -->
+
+
+  <!-- Start Footer Section -->
+  <footer>
+    <div class="container text-center">
+      <h4>楊佳臻的作品集 Jenny Yang's Portfolio</h4>
+      <p>&copy; Last updated Apr 2023
+        <br>This page is generated by <a href="https://www.youtube.com/channel/UC3tkkxY2xAOkQVIVMSCxTXQ"
+          target="_blank">Github Pages
+      </p>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <script src="js/portfolio.js"></script>
+
 </body>
-  
+
 </html>
